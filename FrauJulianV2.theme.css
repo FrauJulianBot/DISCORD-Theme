@@ -1,0 +1,56 @@
+/**
+ * @name FrauJulianV2
+ * @author Tropical#4355 & Gibbu#1211
+ * @version 1.3
+ * @description An optimized, consistent, and functional theme for Discord based on GitHub's design language
+ * @invite TeRQEPb
+ * @source https://github.com/DiscordStyles/Slate/
+ * @website https://discordstyles.github.io/slate-theme/
+*/
+
+@import url('https://discordstyles.github.io/AdjustableServerWidth/base.css');
+@import url('https://discordstyles.github.io/Slate/base.css');
+
+:root {
+  --accent: 3, 102, 214;
+  --link-colour: 48,144,255;
+  --server-icon-size: 38px;
+  --server-icon-spacing: 7px;
+  --server-container-padding: 5px;
+  --base-border: #141414;
+  --text-normal: #67aafd;
+  --text-muted: #6389a7;
+  --text-focus: #ffffff;
+  --background: #282b2e;
+  --background-alt: #2a3036;
+  --background-light: #2f363d;
+  --background-dark: #454545;
+  --background-modifier-hover: var(--background-light);
+  --background-modifier-active: #444d56;
+  --background-modifier-selected: var(--accent-solid);
+  --border-radius: 3px;
+  --button-border-radius: 2px;
+  --avatar-radius: 1.5px;
+  --server-radius: 3px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --toolbar-height: 50px;
+  --toolbar-text-normal: #d1d5da;
+  --toolbar-text-muted: #959da5;
+  --toolbar-text-focus: #ffffff;
+  --toolbar-background: #1d2125;
+  --toolbar-background-hover: #2f363d;
+  --toolbar-background-active: #444d56;
+  --toolbar-background-alt: #24292e;
+  --toolbar-border: #141414;
+  --toolbar-search-background: #161a1d;
+  --toolbar-search-border: var(--toolbar-border);
+  --sidebar-width: 260px;
+  --member-height: 42px;
+  --cursor: cursor;
+  --status-green: 0,246,223;
+  --status-yellow: 219, 171, 9;
+  --status-red: 215, 58, 73;
+  --status-purple: 89, 54, 149;
+  --status-grey: 117, 128, 142;
+}
